@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  .triangle-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* You can adjust this value to fit your needs */
+    background: linear-gradient(to bottom right,  rgb(255, 252, 195) 50%, rgb(205, 238, 250) 50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .triangle {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* You can adjust this value to fit your needs */
+    background: linear-gradient(to bottom right,  rgb(205,238,250) 50%, rgb(255, 252, 195) 50%);
+  }
+  .text{
+    border: 2px solid transparent; /* Start with a transparent border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightpink,
+                0 0 20px lightpink,
+                0 0 30px lightpink,
+                0 0 40px lightpink;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .intro{
+    height:26.3333%;
+    width: 100%;
+  }
+.vish{
+    font-weight: 200;
+    font-size: medium;
+    font-size: 30px;
+    color: rgb(146, 210, 231);
+    margin-bottom: 0px;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+.programmer{
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(146, 210, 231);
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.header{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.page-button{
+    margin-top: 10px;
+    height: 40px;
+    width: 7%;
+    background: transparent;
+    margin-left: 20px;
+    border: none;
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(158, 216, 11);
+    border: none;
+}
+.footer{
+    height:25.67%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+.footer-text{
+    color:#379df7;
+    font-weight: 800;
+    font-size: 35px;
+    margin-left: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.button-container{
+  width: 100%;
+}
+.home{
+  width: 100%;
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.about {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, rgb(250, 246, 167), rgb(144, 219, 246));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+.about-content{
+  width: 75%;
+  margin: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+.skills {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, rgb(250, 246, 167), rgb(144, 219, 246));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skill-content{
+  width: 85%;
+  margin: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+
+}
+.projects {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, rgb(250, 246, 167), rgb(144, 219, 246));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project-content{
+  width: 85%;
+  margin: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+   .contact-content{
+  width: fit-content;
+  margin: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+
+}
+.contact {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, rgb(250, 246, 167), rgb(144, 219, 246));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
